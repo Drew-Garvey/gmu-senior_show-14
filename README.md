@@ -5,5 +5,5 @@ gmu-senior_show-14
 Static site for the GMU 2014 Senior show.
 
 ## Authors
-Drew Garvey
-Chris Sullivan
+- Drew Garvey
+- Chris Sullivan
