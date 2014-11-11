@@ -393,7 +393,7 @@ html[xmlns] .clearfix {
    TYPOGRAPHY.
    ========================================================================== */
 body {
-  font-family: sans-serif;
+  font-family: helvetica, sans-serif;
   margin: 0;
   padding: 0; }
 
@@ -401,10 +401,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin: 0;
   padding: 0; }
-
-.poop {
-  background-color: blue;
-  height: 100px; }
 
 /* ==========================================================================
    GRID.
@@ -415,5 +411,3 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    PRINT.
    ========================================================================== */
-
-/*# sourceMappingURL=style.css.map */
