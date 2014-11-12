@@ -3,6 +3,11 @@
    ========================================================================== */
 
 
+/* Global Variables
+   ========================================================================== */
+$title-text-padding: 40px;
+
+
 /* .container
    ========================================================================== */
 .container {
@@ -12,8 +17,27 @@
 /* .title
    ========================================================================== */
 .title {
-	// position: absolute;
+	position: relative;
 	width: 100%;
 	height: 600px;
 	background-color: grey;
+}
+
+.title h1 {
+	position: absolute;
+	top: 50%;
+}
+
+/* .details
+   ========================================================================== */
+.details {
+	height: 800px;
+}
+
+.show {
+	background-color: cyan;
+}
+
+.directions {
+	background-color: blue;
 }
