@@ -1,3 +1,26 @@
 /* ==========================================================================
    NAVIGATION.
    ========================================================================== */
+
+nav {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 10px;
+	background-color: teal;
+	width: 100%;
+	clear: both;
+	z-index: 10;
+	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	z-index: 10;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline;
+	padding: 10px;
+}
