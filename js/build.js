@@ -176,12 +176,17 @@ var app = (function($) {
 
 		};
 
+		// expander is to show and hide details in the student section
 		var expander = function() {
-			
-		$(".faq dt").click(function(e) {
-		$(this).next().slideToggle();
-	});
+
+			$(".faq dt").click(function(e) {
+			$(this).next().slideToggle();
+			});
 		};
+
+		
+
+
 
 		var example = function() { // Matches the height of various elements to other elements in ways that are impossible with appS alone
 			
