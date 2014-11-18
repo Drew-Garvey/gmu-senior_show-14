@@ -2,14 +2,24 @@
    TYPOGRAPHY.
    ========================================================================== */
 
+/* Type Variables
+   ========================================================================== */
+
+$headline: 'Oswald', sans-serif;;
+$font-default: 'Lato', sans-serif;
+
+/* Base Type Styles.
+   ========================================================================== */
+
 body {
-	font-family: helvetica, sans-serif;
+	font-family: $font-default;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
+	font-family: $headline;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
