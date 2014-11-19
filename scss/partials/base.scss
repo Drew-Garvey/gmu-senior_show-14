@@ -30,12 +30,31 @@ $title-text-padding: 40px;
 
 /* students
    ========================================================================== */
+.students img {
+	width: 100%;
+}
+
 .student-details {
+	visibility: hidden;
 	width: 100%;
 	height: 100%;
 	background-color: red;
 }
 
+.student-details p {
+	padding: 0 2em;
+	line-height: 1.4;
+}
+
+.student-details a {
+	display: block;
+	padding: 1.2em;
+	text-align: center;
+}
+
+.open {
+	visibility: visible;
+}
 
 /* .details
    ========================================================================== */

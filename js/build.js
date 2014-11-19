@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
    // ** There should be no actual functions here, all actual functions 
 
    // init calls for each module (as needed)
-   app.utility.init();
+   app.expander.utility.init();
 
    // Hook your modules into event handlers here
    $(window).resize(function(){ app.utility.resize(); });
@@ -179,12 +179,23 @@ var app = (function($) {
 		// expander is to show and hide details in the student section
 		var expander = function() {
 
-			$(".faq dt").click(function(e) {
-			$(this).next().slideToggle();
-			});
+			//$('student-details').click(function(e) {
+			//$(this).next().slideToggle();
+			//});
+
+			// settings (elements)
+			$activeTab = $('.tabs .active');
+			$tab = $(this).parent('li');
+			targetID = $(this).attr('href');
+
+			// functionality
+			$('student-details').removeClass('open');
+			console.log('student-details');
+			$(targetID).addClass('open');
+			$tab.addClass('active');
 		};
 
-		
+
 
 
 
