@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
    // ** There should be no actual functions here, all actual functions 
 
    // init calls for each module (as needed)
-   app.expander.utility.init();
+   app.expander
 
    // Hook your modules into event handlers here
    $(window).resize(function(){ app.utility.resize(); });
@@ -179,20 +179,26 @@ var app = (function($) {
 		// expander is to show and hide details in the student section
 		var expander = function() {
 
-			//$('student-details').click(function(e) {
+			//$('.student-details').click(function(e) {
 			//$(this).next().slideToggle();
 			//});
 
 			// settings (elements)
-			$activeTab = $('.tabs .active');
-			$tab = $(this).parent('li');
-			targetID = $(this).attr('href');
+			// $activeTab = $('.tabs .active');
+			// $tab = $(this).parent('li');
+			// targetID = $(this).attr('href');
 
 			// functionality
-			$('student-details').removeClass('open');
-			console.log('student-details');
-			$(targetID).addClass('open');
-			$tab.addClass('active');
+			// $('.student-details').removeClass('open');
+			// $(targetID).addClass('open');
+			// $tab.addClass('active');
+
+			// $('#row-1').load('student-chris.html .student-details');
+
+			$('.student-details').click(function (){
+				console.log('.student-details');
+				$('#row-1').load('student-chris.html');
+			});
 		};
 
 
