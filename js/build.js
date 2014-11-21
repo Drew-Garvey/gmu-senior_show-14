@@ -38,12 +38,17 @@ $(function() {
 				$('.student-details').addClass('.open').slideToggle();
 			});
 
-			$('#row-2 a').click(function (e){
-				console.log('a');
-				e.preventDefault();
-				$('.student-details').addClass('.open').slideToggle();
-			});
-		
+			// Window size detection conditional
+			$(window).resize(function(){
+				if ($(window).width() <= 1024){	
+					// disable the .desktop divs
+					$('.desktop, .student-details').css('display', 'none;');
+					// load the .mobile divs
+				} else {
+					// disable the .mobile divs
+					// load the .desktop divs
+				}
+});
 
 
 });

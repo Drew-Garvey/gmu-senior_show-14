@@ -20,6 +20,7 @@ a.button {
 	display: block;
 	background-color: #ffb800;
 	padding: 1.2em;
+	text-align: center;
 }
 
 /* .title
@@ -58,6 +59,10 @@ a.button {
 	display: block;
 	padding: 1.2em;
 	text-align: center;
+}
+
+.mobile {
+	display: none;
 }
 
 .open {

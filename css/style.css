@@ -405,7 +405,8 @@ html[xmlns] .clearfix {
 a.button {
   display: block;
   background-color: #ffb800;
-  padding: 1.2em; }
+  padding: 1.2em;
+  text-align: center; }
 
 /* .title
    ========================================================================== */
@@ -438,6 +439,9 @@ a.button {
   display: block;
   padding: 1.2em;
   text-align: center; }
+
+.mobile {
+  display: none; }
 
 .open {
   display: block; }
@@ -474,9 +478,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
 h1 {
-  padding: 40px; }
+  padding: 12px 0 0; }
 
 span {
+  display: block;
   text-align: center; }
 
 /* ==========================================================================
