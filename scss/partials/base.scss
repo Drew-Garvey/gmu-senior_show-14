@@ -23,6 +23,10 @@ a.button {
 	text-align: center;
 }
 
+a.button:hover {
+
+}
+
 /* .title
    ========================================================================== */
 .title {
@@ -46,7 +50,8 @@ a.button {
 .student-details {
 	display: none;
 	width: 100%;
-	height: 8em;
+	height: auto;
+	margin-bottom: 1.2em;
 	background-color: red;
 }
 
@@ -67,6 +72,10 @@ a.button {
 
 .open {
 	display: block;
+}
+
+.major {
+	padding: 1.2em 0;
 }
 
 /* .details
