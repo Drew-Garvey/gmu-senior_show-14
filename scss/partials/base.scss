@@ -43,8 +43,37 @@ a.button:hover {
 
 /* students
    ========================================================================== */
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.senior {
+	// background-color: #e6e6e7;
+}
+
+.students {
+	background-color: #e6e6e7;
+}
+
 .students img {
 	width: 100%;
+}
+
+.student:hover {
+	background-color: #ffffff;
+	border: 1px solid #d1d3d3;
 }
 
 .student-details {

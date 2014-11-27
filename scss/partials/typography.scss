@@ -30,7 +30,26 @@ h1 {
 	padding: 12px 0 0;
 }
 
+h3 {
+	font-family: $headline;
+	text-align: center;
+	margin: 20px 0;
+}
+
 span {
 	display: block;
 	text-align: center;
+}
+
+ul {
+	// width: 100%;
+	display: block;
+	border-top: 1px solid #d1d3d3;
+	margin: 20px auto;
+}
+
+ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 20px 25px;
 }

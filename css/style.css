@@ -422,8 +422,31 @@ a.button {
 
 /* students
    ========================================================================== */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.students {
+  background-color: #e6e6e7; }
+
 .students img {
   width: 100%; }
+
+.student:hover {
+  background-color: #ffffff;
+  border: 1px solid #d1d3d3; }
 
 .student-details {
   display: none;
@@ -484,9 +507,24 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   padding: 12px 0 0; }
 
+h3 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 20px 0; }
+
 span {
   display: block;
   text-align: center; }
+
+ul {
+  display: block;
+  border-top: 1px solid #d1d3d3;
+  margin: 20px auto; }
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 25px; }
 
 /* ==========================================================================
    GRID.
