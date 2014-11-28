@@ -13,6 +13,7 @@ $font-default: 'Lato', sans-serif;
 
 body {
 	font-family: $font-default;
+	font-weight: normal;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -39,10 +40,41 @@ h2 {
 	font-size: 2em;
 }
 
+.show h1 {
+	display: block;
+	margin-top: 14%;
+	color: #fdc20e;
+}
+
 h3 {
 	font-size: 1em;
 	text-align: center;
 	margin: 20px 0;
+}
+
+p {
+	font-weight: normal;
+}
+
+p.lede {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+p.closing {
+	color: #fdc20e;
+	font-size: 1.8em;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p.show-date {
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #fdc20e;
+	text-align: center;
+	margin-top: 0;
 }
 
 span {
@@ -73,7 +105,7 @@ ul.social {
 }
 
 li a img:hover {
-	transition: border-bottom 0.5s ease;
-	-webkit-transition: border-bottom 0.5s ease;
+	transition: border-bottom 0.5s ease-in-out 0s;
+	-webkit-transition: border-bottom 0.5s ease-in-out 0s;
 	border-bottom: 4px solid #f26835;
 }
