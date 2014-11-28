@@ -28,10 +28,19 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	padding: 12px 0 0;
+	font-size: 4em;
+}
+
+.students h1 {
+	padding: 40px 0;
+}
+
+h2 {
+	font-size: 2em;
 }
 
 h3 {
-	font-family: $headline;
+	font-size: 1em;
 	text-align: center;
 	margin: 20px 0;
 }
@@ -44,12 +53,27 @@ span {
 ul {
 	// width: 100%;
 	display: block;
-	border-top: 1px solid #d1d3d3;
-	margin: 20px auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+li {
+	padding: 0;
 }
 
 ul li {
 	display: inline-block;
 	text-align: center;
-	padding: 20px 25px;
+	margin: 0 auto;
+	padding: 20px 9%;
+}
+
+ul.social {
+	border-top: 1px solid #d1d3d3;
+}
+
+li a img:hover {
+	transition: border-bottom 0.5s ease;
+	-webkit-transition: border-bottom 0.5s ease;
+	border-bottom: 4px solid #f26835;
 }

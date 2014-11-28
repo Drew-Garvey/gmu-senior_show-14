@@ -44,19 +44,20 @@ a.button:hover {
 /* students
    ========================================================================== */
 
-@-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
+.fadeInDown {
+  animation-name: fadeInDown;
 }
 
 .senior {
@@ -69,9 +70,12 @@ a.button:hover {
 
 .students img {
 	width: 100%;
+	padding-top: 10px;
 }
 
 .student:hover {
+	transition: background-color border 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
 	background-color: #ffffff;
 	border: 1px solid #d1d3d3;
 }
@@ -104,7 +108,7 @@ a.button:hover {
 }
 
 .major {
-	padding: 1.2em 0;
+	padding: 0.2em 0 0.8em 0;
 }
 
 /* .details

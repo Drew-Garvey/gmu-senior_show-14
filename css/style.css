@@ -422,29 +422,27 @@ a.button {
 
 /* students
    ========================================================================== */
-@-webkit-keyframes fadeIn {
+@keyframes fadeInDown {
   0% {
-    opacity: 0; }
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
 
   100% {
-    opacity: 1; } }
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-
-  100% {
-    opacity: 1; } }
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+    opacity: 1;
+    transform: none; } }
+.fadeInDown {
+  animation-name: fadeInDown; }
 
 .students {
   background-color: #e6e6e7; }
 
 .students img {
-  width: 100%; }
+  width: 100%;
+  padding-top: 10px; }
 
 .student:hover {
+  transition: background-color border 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
   background-color: #ffffff;
   border: 1px solid #d1d3d3; }
 
@@ -471,7 +469,7 @@ a.button {
   display: block; }
 
 .major {
-  padding: 1.2em 0; }
+  padding: 0.2em 0 0.8em 0; }
 
 /* .details
    ========================================================================== */
@@ -505,10 +503,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
 h1 {
-  padding: 12px 0 0; }
+  padding: 12px 0 0;
+  font-size: 4em; }
+
+.students h1 {
+  padding: 40px 0; }
+
+h2 {
+  font-size: 2em; }
 
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-size: 1em;
   text-align: center;
   margin: 20px 0; }
 
@@ -518,13 +523,25 @@ span {
 
 ul {
   display: block;
-  border-top: 1px solid #d1d3d3;
-  margin: 20px auto; }
+  margin: 0 auto;
+  padding: 0; }
+
+li {
+  padding: 0; }
 
 ul li {
   display: inline-block;
   text-align: center;
-  padding: 20px 25px; }
+  margin: 0 auto;
+  padding: 20px 9%; }
+
+ul.social {
+  border-top: 1px solid #d1d3d3; }
+
+li a img:hover {
+  transition: border-bottom 0.5s ease;
+  -webkit-transition: border-bottom 0.5s ease;
+  border-bottom: 4px solid #f26835; }
 
 /* ==========================================================================
    GRID.
