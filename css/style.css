@@ -2167,7 +2167,6 @@ a.button {
   0% {
     opacity: 0;
     transform: translate3d(0, -100%, 0); }
-
   100% {
     opacity: 1;
     transform: none; } }
@@ -2279,13 +2278,13 @@ h1 {
 h2 {
   font-size: 2em; }
 
-.show h1 {
+.title h1 {
   display: block;
   margin-top: 14%;
   color: #fdc20e; }
 
 .directions h1 {
-  color: white; }
+  color: #fff; }
 
 h3 {
   font-size: 1em;
@@ -2370,3 +2369,5 @@ body {
 /* ==========================================================================
    PRINT.
    ========================================================================== */
+
+/*# sourceMappingURL=style.css.map */
