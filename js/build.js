@@ -18,3 +18,15 @@ $(function() {
 				$('.student-details').addClass('.open').slideToggle();
 			});
 });
+
+var  mn = $(".main-nav");
+    mns = "main-nav-scrolled";
+    hdr = $('.title').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns, '.title');
+  }
+});

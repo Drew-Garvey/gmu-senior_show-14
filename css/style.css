@@ -394,6 +394,192 @@ html[xmlns] .clearfix {
   height: 1%; }
 
 /* ==========================================================================
+<<<<<<< HEAD
+=======
+   BASE.
+   ========================================================================== */
+/* Global Variables
+   ========================================================================== */
+/* .container
+   ========================================================================== */
+.container {
+  height: 100%; }
+
+/* <button>
+   ========================================================================== */
+a.button {
+  display: block;
+  background-color: #ffb800;
+  padding: 1.2em;
+  text-align: center; }
+
+/* .title
+   ========================================================================== */
+.title {
+  background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
+  background-size: cover;
+  background-color: grey;
+  height: 850px; }
+
+.title h1 {
+  position: absolute;
+  top: 50%; }
+
+/* students
+   ========================================================================== */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+.fadeInDown {
+  animation-name: fadeInDown; }
+
+.students {
+  background-color: #e6e6e7; }
+
+.students img {
+  width: 100%;
+  padding-top: 10px; }
+
+.student:hover {
+  transition: background-color border 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  background-color: #ffffff;
+  border: 1px solid #d1d3d3; }
+
+.student-details {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.2em;
+  background-color: red; }
+
+.student-details p {
+  padding: 0 2em;
+  line-height: 1.4; }
+
+.student-details a {
+  display: block;
+  padding: 1.2em;
+  text-align: center; }
+
+.mobile {
+  display: none; }
+
+.open {
+  display: block; }
+
+.major {
+  padding: 0.2em 0 0.8em 0; }
+
+/* .details
+   ========================================================================== */
+.details {
+  height: 800px; }
+
+.show {
+  background-color: #273441;
+  color: #fff; }
+
+.directions {
+  background-color: blue; }
+
+/* ==========================================================================
+   TYPOGRAPHY.
+   ========================================================================== */
+/* Type Variables
+   ========================================================================== */
+/* Base Type Styles.
+   ========================================================================== */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+h1 {
+  padding: 12px 0 0;
+  font-size: 4em; }
+
+.students h1 {
+  padding: 40px 0; }
+
+h2 {
+  font-size: 2em; }
+
+.show h1 {
+  display: block;
+  margin-top: 14%;
+  color: #fdc20e; }
+
+h3 {
+  font-size: 1em;
+  text-align: center;
+  margin: 20px 0; }
+
+p {
+  font-weight: normal; }
+
+p.lede {
+  font-size: 1.4em;
+  text-align: center; }
+
+p.closing {
+  color: #fdc20e;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0; }
+
+p.show-date {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #fdc20e;
+  text-align: center;
+  margin-top: 0; }
+
+span {
+  display: block;
+  text-align: center; }
+
+ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0; }
+
+li {
+  padding: 0; }
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 9%; }
+
+ul.social {
+  border-top: 1px solid #d1d3d3; }
+
+li a img:hover {
+  transition: border-bottom 0.5s ease-in-out 0s;
+  -webkit-transition: border-bottom 0.5s ease-in-out 0s;
+  border-bottom: 4px solid #f26835; }
+
+/* ==========================================================================
+>>>>>>> header
    GRID.
    ========================================================================== */
 /* ================================================================== */
@@ -2336,25 +2522,29 @@ li a img:hover {
 /* ==========================================================================
    NAVIGATION.
    ========================================================================== */
-nav {
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding-top: 850px; }
+
+.main-nav,
+.students {
+  position: relative; }
+
+.main-nav {
+  background: #fff;
+  height: 80px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+
+.title,
+.main-nav-scrolled {
   position: fixed;
-  top: 0;
-  margin: 0;
-  padding: 10px;
-  background-color: teal;
   width: 100%;
-  clear: both;
-  z-index: 10;
-  overflow: hidden; }
-
-nav ul {
-  margin: 0;
-  z-index: 10; }
-
-nav ul li {
-  text-decoration: none;
-  display: inline;
-  padding: 10px; }
+  top: 0; }
 
 /* ==========================================================================
    PRINT.
