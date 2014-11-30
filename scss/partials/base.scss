@@ -126,7 +126,7 @@ a.button:hover {
 .show {
 	background-color: #273441;
 	color: #fff;
-	height: 559px;
+	height: 560px;
 }
 
 
@@ -142,7 +142,16 @@ iframe {
 }
 
 .grid-container-max {
+	position: relative;
 	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+/* footer
+   ========================================================================== */
+footer {
+	position: relative;
+	height: auto;
+	background-color: $red;
 }
