@@ -2214,16 +2214,18 @@ a.button {
 
 /* .details
    ========================================================================== */
-.details {
+#the_show {
   height: 800px; }
 
 .show {
   background-color: #273441;
-  color: #fff; }
+  color: #fff;
+  height: 559px; }
 
 .directions {
   background-color: blue;
-  padding-left: 0; }
+  padding-left: 0;
+  padding-right: 0; }
 
 /* ==========================================================================
    TYPOGRAPHY.
