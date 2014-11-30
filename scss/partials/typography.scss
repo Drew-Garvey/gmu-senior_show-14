@@ -13,6 +13,7 @@ $font-default: 'Lato', sans-serif;
 
 body {
 	font-family: $font-default;
+	font-weight: normal;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -27,7 +28,84 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	padding: $title-text-padding;
+	padding: 12px 0 0;
+	font-size: 4em;
 }
 
+.students h1 {
+	padding: 40px 0;
+}
 
+h2 {
+	font-size: 2em;
+}
+
+.show h1 {
+	display: block;
+	margin-top: 14%;
+	color: #fdc20e;
+}
+
+h3 {
+	font-size: 1em;
+	text-align: center;
+	margin: 20px 0;
+}
+
+p {
+	font-weight: normal;
+}
+
+p.lede {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+p.closing {
+	color: #fdc20e;
+	font-size: 1.8em;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p.show-date {
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #fdc20e;
+	text-align: center;
+	margin-top: 0;
+}
+
+span {
+	display: block;
+	text-align: center;
+}
+
+ul {
+	// width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+li {
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 9%;
+}
+
+ul.social {
+	border-top: 1px solid #d1d3d3;
+}
+
+li a img:hover {
+	transition: border-bottom 0.5s ease-in-out 0s;
+	-webkit-transition: border-bottom 0.5s ease-in-out 0s;
+	border-bottom: 4px solid #f26835;
+}
