@@ -225,6 +225,9 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
+iframe {
+  overflow: hidden; }
+
 /* ==========================================================================
    Figures
    ========================================================================== */
@@ -2172,7 +2175,8 @@ a.button {
   animation-name: fadeInDown; }
 
 .students {
-  background-color: #e6e6e7; }
+  background-color: #e6e6e7;
+  padding-bottom: 40px; }
 
 .students img {
   width: 100%;
@@ -2215,7 +2219,8 @@ a.button {
 /* .details
    ========================================================================== */
 #the_show {
-  height: 800px; }
+  background-color: #a6cbeb;
+  height: 560px; }
 
 .show {
   background-color: #273441;
@@ -2223,9 +2228,13 @@ a.button {
   height: 559px; }
 
 .directions {
-  background-color: blue;
+  position: relative;
+  background-color: #f26835;
   padding-left: 0;
   padding-right: 0; }
+
+iframe {
+  position: absolute; }
 
 /* ==========================================================================
    TYPOGRAPHY.
@@ -2262,6 +2271,9 @@ h2 {
   display: block;
   margin-top: 14%;
   color: #fdc20e; }
+
+.directions h1 {
+  color: white; }
 
 h3 {
   font-size: 1em;
