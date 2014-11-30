@@ -426,6 +426,7 @@ a.button {
   0% {
     opacity: 0;
     transform: translate3d(0, -100%, 0); }
+
   100% {
     opacity: 1;
     transform: none; } }
@@ -566,7 +567,8 @@ ul li {
   padding: 20px 9%; }
 
 ul.social {
-  border-top: 1px solid #d1d3d3; }
+  border-top: 1px solid #d1d3d3;
+  text-align: center; }
 
 li a img:hover {
   transition: border-bottom 0.5s ease-in-out 0s;
@@ -2337,5 +2339,3 @@ nav ul li {
 /* ==========================================================================
    PRINT.
    ========================================================================== */
-
-/*# sourceMappingURL=style.css.map */
