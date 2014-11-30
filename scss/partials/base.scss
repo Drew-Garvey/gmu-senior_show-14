@@ -66,6 +66,7 @@ a.button:hover {
 
 .students {
 	background-color: #e6e6e7;
+	padding-bottom: 40px
 }
 
 .students img {
@@ -116,16 +117,32 @@ a.button:hover {
 
 /* .details
    ========================================================================== */
-.details {
-	height: 800px;
+#the_show {
+	background-color: #a6cbeb;
+	height: 560px;
 }
+
 
 .show {
 	background-color: #273441;
 	color: #fff;
+	height: 559px;
 }
 
 
 .directions {
-	background-color: blue;
+	position: relative;
+	background-color: $red;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+iframe {
+	position: absolute;
+}
+
+.grid-container-max {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
