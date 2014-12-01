@@ -26,12 +26,8 @@ var  mn = $(".main-nav");
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
-<<<<<<< HEAD
     mn.addClass(mns);
     mn.next().addClass('none');
-=======
-    mn.addClass(mns); // mn.addClass(mns, '.classThatRemovesImg'); 
->>>>>>> FETCH_HEAD
   } else {
     mn.removeClass(mns, '.title');
   }
