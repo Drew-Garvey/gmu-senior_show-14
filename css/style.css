@@ -2155,7 +2155,7 @@ a.button {
   background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
   background-size: cover;
   background-color: grey;
-  height: 850px; }
+  height: 780px; }
 
 /* students
    ========================================================================== */
@@ -2276,7 +2276,7 @@ h2 {
   font-size: 2em; }
 
 .title h1 {
-  margin-top: 300px;
+  margin-top: 280px;
   color: #fdc20e;
   text-align: center; }
 
@@ -2345,7 +2345,7 @@ li a img:hover {
 
 body {
   margin: 0;
-  padding-top: 850px; }
+  padding-top: 780px; }
 
 .main-nav,
 .students {
