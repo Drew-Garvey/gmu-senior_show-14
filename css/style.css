@@ -2333,11 +2333,6 @@ ul.social {
   border-top: 1px solid #d1d3d3;
   text-align: center; }
 
-li a img:hover {
-  transition: border-bottom 0.5s ease-in-out 0s;
-  -webkit-transition: border-bottom 0.5s ease-in-out 0s;
-  border-bottom: 4px solid #f26835; }
-
 a:hover {
   transition: border-bottom 0.5s ease-in-out 0s;
   -webkit-transition: border-bottom 0.5s ease-in-out 0s;
@@ -2386,6 +2381,9 @@ body {
    ========================================================================== */
 footer {
   padding: 40px; }
+
+footer h2 {
+  color: white; }
 
 footer ul {
   text-align: center; }
