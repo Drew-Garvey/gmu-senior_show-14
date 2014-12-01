@@ -27,7 +27,7 @@ var  mn = $(".main-nav");
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
     mn.addClass(mns);
-    mn.next().addClass('none');
+    mn.next().addClass('none'); // Add image back once it gets back to the top.
   } else {
     mn.removeClass(mns, '.title');
   }
