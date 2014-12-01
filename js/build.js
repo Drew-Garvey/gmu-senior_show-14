@@ -25,7 +25,7 @@ var  mn = $(".main-nav");
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns); // mn.addClass(mns, classThatRemovesImg); 
+    mn.addClass(mns); // mn.addClass(mns, '.classThatRemovesImg'); 
   } else {
     mn.removeClass(mns, '.title');
   }
