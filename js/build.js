@@ -30,5 +30,6 @@ $(window).scroll(function() {
     mn.next().addClass('none'); // Add image back once it gets back to the top.
   } else {
     mn.removeClass(mns, '.title');
+    mn.next().removeClass('none');
   }
 });
