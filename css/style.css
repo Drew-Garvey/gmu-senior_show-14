@@ -2389,14 +2389,14 @@ footer ul {
   text-align: center; }
 
 footer ul li {
-  padding: 40px 6%; }
+  padding: 40px 2%; }
 
 footer a {
   font-weight: normal;
   color: white; }
 
 footer a:hover {
-  border-bottom: 4px solid white; }
+  border-bottom: 4px solid #fdc20e; }
 
 /* ==========================================================================
    PRINT.
