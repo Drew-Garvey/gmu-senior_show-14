@@ -2157,10 +2157,6 @@ a.button {
   background-color: grey;
   height: 850px; }
 
-.title h1 {
-  position: absolute;
-  top: 50%; }
-
 /* students
    ========================================================================== */
 @keyframes fadeInDown {
@@ -2175,7 +2171,8 @@ a.button {
 
 .students {
   background-color: #e6e6e7;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  padding-top: 60px; }
 
 .students img {
   width: 100%;
@@ -2279,9 +2276,9 @@ h2 {
   font-size: 2em; }
 
 .title h1 {
-  display: block;
-  margin-top: 14%;
-  color: #fdc20e; }
+  margin-top: 300px;
+  color: #fdc20e;
+  text-align: center; }
 
 .directions h1 {
   color: #fff; }
@@ -2296,7 +2293,8 @@ p {
 
 p.lede {
   font-size: 1.4em;
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 p.closing {
   color: #fdc20e;
@@ -2354,17 +2352,25 @@ body {
   position: relative; }
 
 .main-nav {
-  background: #fff;
+  background: #273441;
   height: 80px;
   z-index: 150;
   margin-bottom: -80px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+  text-align: center; }
 
 .title,
 .main-nav-scrolled {
   position: fixed;
   width: 100%;
   top: 0; }
+
+.main-nav a {
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 20px; }
 
 /* ==========================================================================
    PRINT.

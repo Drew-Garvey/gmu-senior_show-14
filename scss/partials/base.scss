@@ -36,11 +36,6 @@ a.button:hover {
 	height: 850px;
 }
 
-.title h1 {
-	position: absolute;
-	top: 50%;
-}
-
 /* students
    ========================================================================== */
 
@@ -66,7 +61,8 @@ a.button:hover {
 
 .students {
 	background-color: #e6e6e7;
-	padding-bottom: 40px
+	padding-bottom: 40px;
+	padding-top: 60px;
 }
 
 .students img {
