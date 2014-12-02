@@ -117,7 +117,10 @@ ul.social {
 // }
 
 a:hover {
-	transition: border-bottom 0.5s ease-in-out 0s;
-	-webkit-transition: border-bottom 0.5s ease-in-out 0s;
+	text-decoration: none;
+	transition: border-bottom 0.12s ease-in-out 0s;
+	-webkit-transition: border-bottom 0.12s ease-in-out 0s;
+	-ms-transition: border-bottom 0.12s ease-in-out 0s;
+	-o-transition: border-bottom 0.12s ease-in-out 0s;
 	border-bottom: 4px solid #f26835;
 }

@@ -32,29 +32,12 @@ a.button:hover {
 .title {
 	background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
 	background-size: cover;
-	background-color: grey;
+	// background-color: grey;
 	height: 700px;
 }
 
 /* students
    ========================================================================== */
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fadeInDown {
-  animation-name: fadeInDown;
-}
-
 .senior {
 	// background-color: #e6e6e7;
 }
@@ -71,11 +54,11 @@ a.button:hover {
 }
 
 .student:hover {
-	transition: background-color border 0.5s ease;
-	-webkit-transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease;
-	-o-transition: background-color 0.5s ease;
-	-ms-transition: background-color 0.5s ease;
+	transition: background-color border 0.12s ease;
+	-webkit-transition: background-color 0.12s ease;
+	-moz-transition: background-color 0.12s ease;
+	-o-transition: background-color 0.12s ease;
+	-ms-transition: background-color 0.12s ease;
 	background-color: #ffffff;
 	border: 1px solid #d1d3d3;
 }

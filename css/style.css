@@ -2154,22 +2154,10 @@ a.button {
 .title {
   background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
   background-size: cover;
-  background-color: grey;
   height: 700px; }
 
 /* students
    ========================================================================== */
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0); }
-
-  100% {
-    opacity: 1;
-    transform: none; } }
-.fadeInDown {
-  animation-name: fadeInDown; }
-
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
@@ -2180,11 +2168,11 @@ a.button {
   padding-top: 10px; }
 
 .student:hover {
-  transition: background-color border 0.5s ease;
-  -webkit-transition: background-color 0.5s ease;
-  -moz-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  -ms-transition: background-color 0.5s ease;
+  transition: background-color border 0.12s ease;
+  -webkit-transition: background-color 0.12s ease;
+  -moz-transition: background-color 0.12s ease;
+  -o-transition: background-color 0.12s ease;
+  -ms-transition: background-color 0.12s ease;
   background-color: #ffffff;
   border: 1px solid #d1d3d3; }
 
@@ -2337,8 +2325,11 @@ ul.social {
   text-align: center; }
 
 a:hover {
-  transition: border-bottom 0.5s ease-in-out 0s;
-  -webkit-transition: border-bottom 0.5s ease-in-out 0s;
+  text-decoration: none;
+  transition: border-bottom 0.12s ease-in-out 0s;
+  -webkit-transition: border-bottom 0.12s ease-in-out 0s;
+  -ms-transition: border-bottom 0.12s ease-in-out 0s;
+  -o-transition: border-bottom 0.12s ease-in-out 0s;
   border-bottom: 4px solid #f26835; }
 
 /* ==========================================================================
