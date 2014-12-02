@@ -4,32 +4,26 @@ $(function() {
 
     // ALL JAVASCRIPT GOES HERE 
 
-    // expander is to show and hide details in the student section
+		$('.student .grid-container .grid-33 a.button').click(function (e){
+			e.preventDefault();
+			$('.student-details').addClass('.open').slideToggle();
+		});
 
 
-			// Show/Hide Solution.
-			//$('#student-1 a').click(function (e){
-			//	e.preventDefault();
-			//	$('.student-details').addClass('.open').slideToggle();
-			//});
-
-			$('.student .grid-container .grid-33 a.button').click(function (e){
-				e.preventDefault();
-				$('.student-details').addClass('.open').slideToggle();
-			});
-});
-
-var  mn = $(".main-nav");
+    // Header image
+    var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
     ni = "none"
     hdr = $('.title').height();
 
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns);
-    mn.next().addClass('none'); // Add image back once it gets back to the top.
-  } else {
-    mn.removeClass(mns, '.title');
-    mn.next().removeClass('none');
-  }
+    $(window).scroll(function() {   
+      if( $(this).scrollT   op() > hdr ) {  
+        mn.addClass(mns);   
+        mn.next().addClass('none'); // Add image back once it gets back to the    top.
+      } else {
+        mn.removeClass(mns, '.title');
+        mn.next().removeClass('none');
+      }
+    });
+
 });
