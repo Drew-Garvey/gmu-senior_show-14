@@ -2154,6 +2154,7 @@ a.button {
 .title {
   background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
   background-size: cover;
+  background-color: #fff;
   height: 700px; }
 
 /* students
@@ -2213,7 +2214,8 @@ a.button {
 .show {
   background-color: #273441;
   color: #fff;
-  height: 560px; }
+  height: 560px;
+  padding: 25px; }
 
 .directions {
   position: relative;
@@ -2374,7 +2376,7 @@ body {
    FOOTER.
    ========================================================================== */
 footer {
-  padding: 40px; }
+  padding: 50px; }
 
 footer h2 {
   color: white; }
