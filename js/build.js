@@ -4,6 +4,7 @@ $(function() {
 
     // ALL JAVASCRIPT GOES HERE 
 
+    // Smooth Scrolling Function
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -20,20 +21,23 @@ $(function() {
 });
 
 
-		
-});
-
-var  mn = $(".main-nav");
+    // Header Module
+    var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
     ni = "none"
     hdr = $('.title').height();
 
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns);
-    mn.next().addClass('none'); // Add image back once it gets back to the top.
-  } else {
-    mn.removeClass(mns, '.title');
-    mn.next().removeClass('none');
-  }
+  $(window).scroll(function() {
+    if( $(this).scrollTop() > hdr ) {
+      mn.addClass(mns);
+      mn.next().addClass('none'); // Add image back once it gets back to the top.
+    } else {
+      mn.removeClass(mns, '.title');
+      mn.next().removeClass('none');
+    }
+    });
+
+
+		
 });
+
