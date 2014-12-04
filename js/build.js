@@ -37,6 +37,3 @@ $(window).scroll(function() {
     mn.next().removeClass('none');
   }
 });
-
-
-$('a')
