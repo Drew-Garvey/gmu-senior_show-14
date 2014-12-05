@@ -2159,19 +2159,9 @@ a.button {
 
 /* students
    ========================================================================== */
-<<<<<<< Updated upstream
-=======
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
-.fadeInDown {
-  animation-name: fadeInDown; }
+.senior {
+  background-color: #e6e6e7; }
 
->>>>>>> Stashed changes
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
@@ -2281,7 +2271,7 @@ h2 {
   text-align: center; }
 
 .directions h1 {
-  color: #fff; }
+  color: white; }
 
 h3 {
   font-size: 1em;
@@ -2388,17 +2378,19 @@ footer {
   padding: 50px; }
 
 footer h2 {
-  color: #fff; }
+  color: white; }
 
 footer ul {
   text-align: center; }
 
 footer ul li {
-  padding: 40px 2%; }
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 60px; }
 
 footer a {
   font-weight: normal;
-  color: #fff; }
+  color: white; }
 
 footer a:hover {
   border-bottom: 4px solid #fdc20e; }
@@ -2406,5 +2398,3 @@ footer a:hover {
 /* ==========================================================================
    PRINT.
    ========================================================================== */
-
-/*# sourceMappingURL=style.css.map */
