@@ -7,22 +7,35 @@
 }
 body {
   margin: 0;
-  padding-top: 850px;
+  padding-top: 700px;
 }
 .main-nav,
 .students {
   position: relative; 
 }
 .main-nav {
-  background: #fff;
+  background: rgb(39,52,65);
   height: 80px;
   z-index: 150;
   margin-bottom: -80px;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
 }
 .title,
 .main-nav-scrolled {
   position: fixed;
   width: 100%;
   top: 0;
+}
+
+.main-nav a {
+font-size: 1em;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+display: inline-block;
+margin: 30px 20px;
+}
+
+.none {
+	background-image: none;
 }

@@ -40,10 +40,14 @@ h2 {
 	font-size: 2em;
 }
 
-.show h1 {
-	display: block;
-	margin-top: 14%;
+.title h1 {
+	margin-top: 220px;
 	color: #fdc20e;
+	text-align: center;
+}
+
+.directions h1 {
+	color: $white;
 }
 
 h3 {
@@ -59,6 +63,7 @@ p {
 p.lede {
 	font-size: 1.4em;
 	text-align: center;
+	color:white;
 }
 
 p.closing {
@@ -102,10 +107,20 @@ ul li {
 
 ul.social {
 	border-top: 1px solid #d1d3d3;
+	text-align: center;
 }
 
-li a img:hover {
-	transition: border-bottom 0.5s ease-in-out 0s;
-	-webkit-transition: border-bottom 0.5s ease-in-out 0s;
+// li a img:hover {
+// 	transition: border-bottom 0.5s ease-in-out 0s;
+// 	-webkit-transition: border-bottom 0.5s ease-in-out 0s;
+// 	border-bottom: 4px solid #f26835;
+// }
+
+a:hover {
+	text-decoration: none;
+	transition: border-bottom 0.12s ease-in-out 0s;
+	-webkit-transition: border-bottom 0.12s ease-in-out 0s;
+	-ms-transition: border-bottom 0.12s ease-in-out 0s;
+	-o-transition: border-bottom 0.12s ease-in-out 0s;
 	border-bottom: 4px solid #f26835;
 }
