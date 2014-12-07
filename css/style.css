@@ -2156,22 +2156,15 @@ a.button {
   background-size: cover;
   background-color: #fff;
   height: 700px; }
+  @media screen and (max-width: 800px) {
+    .title {
+      height: 640px; } }
+  @media screen and (min-width: 1500px) {
+    .title {
+      height: 840px; } }
 
 /* students
    ========================================================================== */
-<<<<<<< Updated upstream
-=======
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
-.fadeInDown {
-  animation-name: fadeInDown; }
-
->>>>>>> Stashed changes
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
@@ -2276,9 +2269,15 @@ h2 {
   font-size: 2em; }
 
 .title h1 {
-  margin-top: 220px;
   color: #fdc20e;
-  text-align: center; }
+  text-align: center;
+  font-size: 3.6em; }
+  @media screen and (max-width: 800px) {
+    .title h1 {
+      font-size: 2em; } }
+  @media screen and (min-width: 1500px) {
+    .title h1 {
+      font-size: 5em; } }
 
 .directions h1 {
   color: #fff; }
@@ -2292,23 +2291,56 @@ p {
   font-weight: normal; }
 
 p.lede {
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-align: center;
   color: white; }
+  @media screen and (max-width: 800px) {
+    p.lede {
+      font-size: 1em; } }
+  @media screen and (min-width: 1500px) {
+    p.lede {
+      font-size: 1.7em; } }
+
+p.intro {
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  padding-top: 210px;
+  line-height: 0.1em; }
+  @media screen and (max-width: 800px) {
+    p.intro {
+      font-size: 1em;
+      padding-top: 220px; } }
+  @media screen and (min-width: 1500px) {
+    p.intro {
+      font-size: 1.7em;
+      padding-top: 240px; } }
 
 p.closing {
   color: #fdc20e;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 700;
   text-align: center;
   margin-bottom: 0; }
+  @media screen and (max-width: 800px) {
+    p.closing {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 1500px) {
+    p.closing {
+      font-size: 2em; } }
 
 p.show-date {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 400;
   color: #fdc20e;
   text-align: center;
   margin-top: 0; }
+  @media screen and (max-width: 800px) {
+    p.show-date {
+      font-size: 1em; } }
+  @media screen and (min-width: 1500px) {
+    p.show-date {
+      font-size: 1.7em; } }
 
 span {
   display: block;
@@ -2343,12 +2375,22 @@ a:hover {
 /* ==========================================================================
    NAVIGATION.
    ========================================================================== */
+/* Navigation Variables
+   ========================================================================== */
+/* Base Navigation Styles.
+   ========================================================================== */
 * {
   box-sizing: border-box; }
 
 body {
   margin: 0;
   padding-top: 700px; }
+  @media screen and (max-width: 800px) {
+    body {
+      padding-top: 640px; } }
+  @media screen and (min-width: 1500px) {
+    body {
+      padding-top: 840px; } }
 
 .main-nav,
 .students {

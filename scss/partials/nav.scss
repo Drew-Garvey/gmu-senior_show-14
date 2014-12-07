@@ -2,12 +2,27 @@
    NAVIGATION.
    ========================================================================== */
 
+/* Navigation Variables
+   ========================================================================== */
+
+$break-small: 800px;
+$break-large: 1500px;
+
+/* Base Navigation Styles.
+   ========================================================================== */
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
   padding-top: 700px;
+  @media screen and (max-width: $break-small) {
+    padding-top: 640px;
+  }
+  @media screen and (min-width: $break-large) {
+    padding-top: 840px;
+  }
 }
 .main-nav,
 .students {
@@ -28,12 +43,12 @@ body {
 }
 
 .main-nav a {
-font-size: 1em;
-text-decoration: none;
-text-transform: uppercase;
-color: #fff;
-display: inline-block;
-margin: 30px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 20px;
 }
 
 .none {

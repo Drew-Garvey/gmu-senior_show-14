@@ -6,6 +6,8 @@
 /* Global Variables
    ========================================================================== */
 $title-text-padding: 40px;
+$break-small: 800px;
+$break-large: 1500px;
 
 
 /* .container
@@ -34,6 +36,12 @@ a.button:hover {
 	background-size: cover;
 	background-color: #fff;
 	height: 700px;
+	@media screen and (max-width: $break-small) {
+    	height: 640px;
+  	}
+  	@media screen and (min-width: $break-large) {
+  		height: 840px;
+  	}
 }
 
 /* students
