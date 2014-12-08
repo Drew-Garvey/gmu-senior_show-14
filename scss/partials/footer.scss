@@ -1,11 +1,16 @@
 /* ==========================================================================
    FOOTER.
    ========================================================================== */
+$break-small: 1024px;
+
 footer {
 	background-color: $red;
 	position: relative;
 	height: auto;
 	padding: 50px;
+	@media screen and (max-width: $break-small) {
+    margin-top: 420px;
+  }
 }
 
 footer h2 {

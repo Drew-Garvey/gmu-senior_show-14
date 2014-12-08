@@ -5,6 +5,12 @@
 
 /* Global Variables
    ========================================================================== */
+<<<<<<< HEAD
+=======
+$title-text-padding: 40px;
+$break-small: 800px;
+$break-large: 1500px;
+>>>>>>> header-footer
 
 
 /* .container
@@ -33,7 +39,15 @@ a.button:hover {
 	background-size: cover;
 	background-color: #fff;
 	height: 700px;
+	@media screen and (max-width: $break-small) {
+    	height:0px;
+  	}
+  	@media screen and (min-width: $break-large) {
+  		height: 840px;
+  	}
 }
+
+
 
 /* students
    ========================================================================== */
@@ -45,6 +59,9 @@ a.button:hover {
 	background-color: #e6e6e7;
 	padding-bottom: 40px;
 	padding-top: 80px;
+	@media screen and (max-width: $break-small) {
+  	padding-top:0px;
+  	}
 }
 
 .students img {
@@ -110,6 +127,9 @@ a.button:hover {
 	color: #fff;
 	height: 560px;
 	padding: 25px;
+	@media screen and (max-width: $break-small) {
+    	height: 420px;
+  	}
 }
 
 
