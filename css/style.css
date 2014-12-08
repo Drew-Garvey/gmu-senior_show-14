@@ -2159,19 +2159,6 @@ a.button {
 
 /* students
    ========================================================================== */
-<<<<<<< Updated upstream
-=======
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0); }
-  100% {
-    opacity: 1;
-    transform: none; } }
-.fadeInDown {
-  animation-name: fadeInDown; }
-
->>>>>>> Stashed changes
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
