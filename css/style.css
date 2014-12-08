@@ -2152,13 +2152,12 @@ a.button {
 /* .title
    ========================================================================== */
 .title {
-  background: url("../images/hero/seniorshow_hero.png") no-repeat center center scroll;
+  background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
   background-size: cover;
   background-color: #fff;
   height: 700px; }
   @media screen and (max-width: 800px) {
     .title {
-      background: none;
       height: 0px; } }
   @media screen and (min-width: 1500px) {
     .title {
@@ -2170,6 +2169,9 @@ a.button {
   background-color: #e6e6e7;
   padding-bottom: 40px;
   padding-top: 80px; }
+  @media screen and (max-width: 800px) {
+    .students {
+      padding-top: 0px; } }
 
 .students img {
   width: 100%;
@@ -2289,6 +2291,14 @@ h2 {
     .title h1 {
       font-size: 5em; } }
 
+.hero h1 {
+  color: #fdc20e;
+  text-align: center;
+  font-size: 3.6em; }
+  @media screen and (max-width: 800px) {
+    .hero h1 {
+      font-size: 2em; } }
+
 .directions h1 {
   color: #fff; }
 
@@ -2331,7 +2341,7 @@ p.intro {
   @media screen and (max-width: 800px) {
     p.intro {
       font-size: 1em;
-      padding-top: 220px; } }
+      padding-top: 230px; } }
   @media screen and (min-width: 1500px) {
     p.intro {
       font-size: 1.7em;
@@ -2463,6 +2473,20 @@ body {
 
 .none {
   background-image: none; }
+
+@media screen and (min-width: 800px) {
+  .hero {
+    display: none; } }
+@media screen and (max-width: 800px) {
+  .hero {
+    background: url("../images/hero/mobile_hero.png") no-repeat center center scroll;
+    background-size: cover;
+    height: 640px;
+    margin-top: 80px; } }
+
+@media screen and (max-width: 800px) {
+  .hidden {
+    display: none; } }
 
 /* ==========================================================================
    FOOTER.

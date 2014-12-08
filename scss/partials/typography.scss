@@ -60,6 +60,15 @@ h2 {
   	}
 }
 
+.hero h1 {
+	color: #fdc20e;
+	text-align: center;
+	font-size: 3.6em;
+	@media screen and (max-width: $break-small) {
+    font-size: 2em;
+ 	}
+}
+
 .directions h1 {
 	color: $white;
 }
@@ -106,7 +115,7 @@ p.intro {
 	line-height: 0.1em;
 	@media screen and (max-width: $break-small) {
     font-size: 1em;
-    padding-top:220px;
+    padding-top:230px;
  	}
   	@media screen and (min-width: $break-large) {
    	font-size: 1.7em;

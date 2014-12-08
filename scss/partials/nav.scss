@@ -54,3 +54,21 @@ body {
 .none {
 	background-image: none;
 }
+
+.hero {
+  @media screen and (min-width: $break-small) {
+  display:none;
+  }
+  @media screen and (max-width: $break-small) {
+  background: url("../images/hero/mobile_hero.png") no-repeat center center scroll;
+  background-size: cover;
+  height:640px;
+  margin-top:80px;
+  }
+}
+
+.hidden {
+  @media screen and (max-width: $break-small) {
+    display: none;
+  }
+}

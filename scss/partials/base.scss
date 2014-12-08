@@ -32,18 +32,19 @@ a.button:hover {
 /* .title
    ========================================================================== */
 .title {
-	background: url("../images/hero/seniorshow_hero.png") no-repeat center center scroll;
+	background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
 	background-size: cover;
 	background-color: #fff;
 	height: 700px;
 	@media screen and (max-width: $break-small) {
-    	background: none;
     	height:0px;
   	}
   	@media screen and (min-width: $break-large) {
   		height: 840px;
   	}
 }
+
+
 
 /* students
    ========================================================================== */
@@ -55,6 +56,9 @@ a.button:hover {
 	background-color: #e6e6e7;
 	padding-bottom: 40px;
 	padding-top: 80px;
+	@media screen and (max-width: $break-small) {
+  	padding-top:0px;
+  	}
 }
 
 .students img {
