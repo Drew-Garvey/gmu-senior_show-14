@@ -2160,12 +2160,9 @@ a.button {
 
 /* students
    ========================================================================== */
-<<<<<<< HEAD
-=======
 .senior {
   background-color: #e6e6e7; }
 
->>>>>>> FETCH_HEAD
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
@@ -2351,7 +2348,8 @@ body {
 
 .main-nav,
 .students {
-  position: relative; }
+  position: relative;
+  background-color: #e6e6e7; }
 
 .main-nav {
   background: #273441;
