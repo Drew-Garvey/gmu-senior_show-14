@@ -2152,13 +2152,14 @@ a.button {
 /* .title
    ========================================================================== */
 .title {
-  background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
+  background: url("../images/hero/seniorshow_hero.png") no-repeat center center scroll;
   background-size: cover;
   background-color: #fff;
   height: 700px; }
   @media screen and (max-width: 800px) {
     .title {
-      height: 640px; } }
+      background: none;
+      height: 0px; } }
   @media screen and (min-width: 1500px) {
     .title {
       height: 840px; } }
@@ -2222,6 +2223,9 @@ a.button {
   color: #fff;
   height: 560px;
   padding: 25px; }
+  @media screen and (max-width: 800px) {
+    .show {
+      height: 420px; } }
 
 .directions {
   position: relative;
@@ -2261,6 +2265,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   padding: 12px 0 0;
   font-size: 4em; }
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 3em; } }
+  @media screen and (min-width: 1500px) {
+    h1 {
+      font-size: 5em; } }
 
 .students h1 {
   padding: 40px 0; }
@@ -2301,6 +2311,17 @@ p.lede {
     p.lede {
       font-size: 1.7em; } }
 
+p.info {
+  font-size: 1.3em;
+  text-align: center;
+  color: white; }
+  @media screen and (max-width: 800px) {
+    p.info {
+      font-size: 1em; } }
+  @media screen and (min-width: 1500px) {
+    p.info {
+      font-size: 1.3em; } }
+
 p.intro {
   font-size: 1.3em;
   text-align: center;
@@ -2329,6 +2350,16 @@ p.closing {
     p.closing {
       font-size: 2em; } }
 
+p.category {
+  color: #fdc20e;
+  font-size: 1.6em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0; }
+  @media screen and (max-width: 800px) {
+    p.category {
+      font-size: 1.1em; } }
+
 p.show-date {
   font-size: 1.3em;
   font-weight: 400;
@@ -2341,6 +2372,19 @@ p.show-date {
   @media screen and (min-width: 1500px) {
     p.show-date {
       font-size: 1.7em; } }
+
+p.food {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #fdc20e;
+  text-align: center;
+  margin-top: 0; }
+  @media screen and (max-width: 800px) {
+    p.food {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 1500px) {
+    p.food {
+      font-size: 1.3em; } }
 
 span {
   display: block;
@@ -2387,7 +2431,7 @@ body {
   padding-top: 700px; }
   @media screen and (max-width: 800px) {
     body {
-      padding-top: 640px; } }
+      padding-top: 0px; } }
   @media screen and (min-width: 1500px) {
     body {
       padding-top: 840px; } }
@@ -2428,6 +2472,9 @@ footer {
   position: relative;
   height: auto;
   padding: 50px; }
+  @media screen and (max-width: 1024px) {
+    footer {
+      margin-top: 420px; } }
 
 footer h2 {
   color: #fff; }

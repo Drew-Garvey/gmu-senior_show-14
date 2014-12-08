@@ -32,12 +32,13 @@ a.button:hover {
 /* .title
    ========================================================================== */
 .title {
-	background: url("../images/hero/seniorshow_hero.png") no-repeat center center;
+	background: url("../images/hero/seniorshow_hero.png") no-repeat center center scroll;
 	background-size: cover;
 	background-color: #fff;
 	height: 700px;
 	@media screen and (max-width: $break-small) {
-    	height: 640px;
+    	background: none;
+    	height:0px;
   	}
   	@media screen and (min-width: $break-large) {
   		height: 840px;
@@ -119,6 +120,9 @@ a.button:hover {
 	color: #fff;
 	height: 560px;
 	padding: 25px;
+	@media screen and (max-width: $break-small) {
+    	height: 420px;
+  	}
 }
 
 
