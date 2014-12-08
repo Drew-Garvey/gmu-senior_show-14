@@ -5,7 +5,6 @@
 
 /* Global Variables
    ========================================================================== */
-$title-text-padding: 40px;
 
 
 /* .container
@@ -39,7 +38,7 @@ a.button:hover {
 /* students
    ========================================================================== */
 .senior {
-	// background-color: #e6e6e7;
+	background-color: #e6e6e7;
 }
 
 .students {
@@ -91,7 +90,7 @@ a.button:hover {
 }
 
 .major {
-	padding: 0.2em 0 0.8em 0;
+	padding: 0.2em 0 34px 0;
 }
 
 /* .details
@@ -129,7 +128,5 @@ iframe {
 .grid-container-max {
 	position: relative;
 	width: 100%;
-	// padding-left: 10px;
-	// padding-right: 10px;
 }
 

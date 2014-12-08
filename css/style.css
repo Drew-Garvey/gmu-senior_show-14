@@ -106,20 +106,21 @@ body {
  */
 a {
   background: transparent;
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 a:focus {
-  outline: thin dotted; }
+  outline: none; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: none; }
 
 /* ==========================================================================
    Typography
@@ -2159,6 +2160,12 @@ a.button {
 
 /* students
    ========================================================================== */
+<<<<<<< HEAD
+=======
+.senior {
+  background-color: #e6e6e7; }
+
+>>>>>>> FETCH_HEAD
 .students {
   background-color: #e6e6e7;
   padding-bottom: 40px;
@@ -2200,7 +2207,7 @@ a.button {
   display: block; }
 
 .major {
-  padding: 0.2em 0 0.8em 0; }
+  padding: 0.2em 0 34px 0; }
 
 /* .details
    ========================================================================== */
@@ -2260,7 +2267,8 @@ h1 {
   padding: 40px 0; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  padding: 12px 0 0 0; }
 
 .title h1 {
   margin-top: 220px;
@@ -2268,12 +2276,12 @@ h2 {
   text-align: center; }
 
 .directions h1 {
-  color: #fff; }
+  color: white; }
 
 h3 {
   font-size: 1em;
   text-align: center;
-  margin: 20px 0; }
+  margin: 0 0 20px 0; }
 
 p {
   font-weight: normal; }
@@ -2318,6 +2326,10 @@ ul li {
 ul.social {
   border-top: 1px solid #d1d3d3;
   text-align: center; }
+
+ul.social img {
+  width: 20px;
+  height: auto; }
 
 a:hover {
   text-decoration: none;
@@ -2375,17 +2387,19 @@ footer {
   padding: 50px; }
 
 footer h2 {
-  color: #fff; }
+  color: white; }
 
 footer ul {
   text-align: center; }
 
 footer ul li {
-  padding: 40px 2%; }
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 60px; }
 
 footer a {
   font-weight: normal;
-  color: #fff; }
+  color: white; }
 
 footer a:hover {
   border-bottom: 4px solid #fdc20e; }
@@ -2393,5 +2407,3 @@ footer a:hover {
 /* ==========================================================================
    PRINT.
    ========================================================================== */
-
-/*# sourceMappingURL=style.css.map */
